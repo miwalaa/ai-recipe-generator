@@ -4,7 +4,7 @@ import { FaDiscord } from 'react-icons/fa'
 
 export default function RecipeFooter() {
   return (
-    <div className="w-full pb-5">
+    <div className="w-full py-5">
     <div className="w-full container mx-auto px-4 md:px-6 flex flex-col md:flex-row items-center justify-between">
       <div className="flex items-center space-x-4">
         <a 
