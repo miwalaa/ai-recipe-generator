@@ -29,7 +29,7 @@ export default function App() {
   return (
     <>
       <RecipeHeader />
-      <div className='flex flex-col items-center h-screen pt-30'>
+      <div className='flex flex-col items-center min-h-screen pt-30'>
         <div className='flex flex-col items-center w-full max-w-[800px] mx-auto'>
           <img 
               src={recipeLogo}
