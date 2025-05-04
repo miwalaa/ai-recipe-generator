@@ -8,7 +8,7 @@ import recipeLogo from "../public/recipe-book.png"
 
 
 export default function App() {
-  const [ingredients, setIngredients] = useState([/*"Egg", "Milk", "Ground cinnamon", "Ground nutmeg", "Slice bread crust on"*/]);
+  const [ingredients, setIngredients] = useState(["Egg", "Milk", "Ground cinnamon", "Ground nutmeg", "Slice bread crust on"]);
   const [recipe, setRecipe] = useState('');
   const resultRef = useRef(null);
 
@@ -23,6 +23,8 @@ export default function App() {
       resultRef.current.scrollIntoView({ behavior: 'smooth' });
     }
   }, [recipe]);
+
+  console.log("API KEY from env:", import.meta.env.VITE_OPENROUTER_API_KEY);
 
   return (
     <>
