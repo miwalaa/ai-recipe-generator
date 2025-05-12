@@ -1,12 +1,34 @@
-# React + Vite
+# AI Recipe Generator 🍳
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+AI Recipe Generator lets you enter 4 ingredients and get a full recipe powered by AI.  
+Just type your ingredients, hit generate, and get a cooking idea instantly!
 
-Currently, two official plugins are available:
+![screenshot](https://github.com/user-attachments/assets/e11a0587-0540-488e-bd37-6d68bc8f37c3) <!-- Optional: Replace with a real screenshot if you have one -->
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 How It Works
 
-## Expanding the ESLint configuration
+1. Enter up to 4 ingredients.
+2. Click the **Generate** button.
+3. Get an AI-generated recipe in seconds!
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠 Built With
+
+- [Vite](https://vitejs.dev/)
+- [React](https://reactjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [shadcn/ui](https://ui.shadcn.com/)
+- [Hugging Face Inference API](https://huggingface.co/inference-api)
+
+## 🔐 Environment Variables
+
+To use the Hugging Face API securely, create a `.env` file:
+
+`env
+VITE_HF_ACCESS_TOKEN=your_huggingface_token`
+
+## 📦 Installation
+
+```git clone https://github.com/yourusername/ai-recipe-generator
+cd ai-recipe-generator
+npm install
+npm run dev
