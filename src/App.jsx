@@ -24,8 +24,6 @@ export default function App() {
     }
   }, [recipe]);
 
-  console.log("API KEY from env:", import.meta.env.VITE_OPENROUTER_API_KEY);
-
   return (
     <>
       <RecipeHeader />
